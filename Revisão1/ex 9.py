@@ -12,7 +12,7 @@ ultimo = 1
 penultimo = 0
 x = 1
 while x <= 100:
-    print(f"{x}-{termo}")
+    print(termo)
     termo = ultimo + penultimo
     penultimo = ultimo
     ultimo = termo
